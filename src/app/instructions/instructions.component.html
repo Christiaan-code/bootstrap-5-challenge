@@ -1,0 +1,56 @@
+<div class="container my-3">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-auto">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title text-center m-3">Instructions</h3>
+          <h6 class="card-subtitle text-center text-muted">
+            B5 Front-end Mentor Challenge
+          </h6>
+          <hr />
+          <div class="card-text">
+            <p>We are moving over to Bootstrap 5 from sprint 39 and onwards.</p>
+            <p>
+              The goal of this challenge is to get the opportunity to explore
+              Bootstrap 5 in an environment outside of our code base. Please
+              take this time to figure out what tools and utility classes
+              Bootstrap 5 provides us.
+            </p>
+            <p>
+              The instructions for the challenge can be found at
+              <code>/blogr-landing-page-main/README.md</code>
+            </p>
+            <p>
+              Once completed, you will be responsible for reviewing one other
+              developer's submission and provide feedback to them.
+            </p>
+            <p>
+              <strong>Make sure to fork this StackBlitz before starting.</strong
+              ><br />
+              Once done, share your StackBlitz with your assigned reviewer.
+              Submission cut-off will be Monday (20 November) @ 8:00AM. You are
+              welcome to to this during working hours today and tomorrow, but
+              please make sure you prioritise Sprint 38 tickets. Bug duty also
+              needs to take priority.
+            </p>
+            <p>Good luck!</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Developer</th>
+                  <th scope="col">Reviewer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let dev of developers | keyvalue">
+                  <td>{{ dev.key }}</td>
+                  <td>{{ dev.value }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
