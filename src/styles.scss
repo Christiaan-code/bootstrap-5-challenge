@@ -1,2 +1,68 @@
+$home-red: #F14254;
+
+$primary: #F14254;
+
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* src/styles.css */
+
+/* Override Bootstrap primary button color */
+.btn-primary {
+  color: #F14254;
+  background-color: white;
+  border-color: white;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #F97B86;
+  border-color: #F97B86;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.btn-primary:active:focus {
+  background-color: #F14254;
+  border-color: #F14254;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.btn-outline-primary{
+  color: white;
+  font-weight: 500;
+  border-color: white;
+  border-width: 1px;
+}
+
+.btn-outline-primary:hover {
+  font-weight: 500;
+  background-color: white;
+  color: #F14254;
+  border-color: white;
+}
+
+.btn-outline-primary:active:focus {
+  font-weight: 500;
+  background-color: lightgray;
+  color: #F14254;
+  border-color: lightgray;
+}
+
+.border-rounded-bl {
+  border-radius: 0 0 0 120px
+}
+
+.border-rounded-tr {
+  border-radius: 0 120px 0 0
+}
+
+p {
+  color: #8A8E91;
+  line-height: 30px;
+}
+
+h2 {
+  color: #143C58;
+}
